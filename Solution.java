@@ -1,0 +1,12 @@
+class Solution {
+  public static boolean hero(int bullets, int dragons) {
+    if(bullets/2 >= dragons){
+      return true;
+    }
+    return false;
+    
+  }
+  public static void main(String[] args){
+    System.out.println(hero(5, 10));
+  }
+}
