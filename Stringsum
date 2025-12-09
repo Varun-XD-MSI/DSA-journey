@@ -1,0 +1,13 @@
+public class Kata {
+  
+  public static String sumStr(String a, String b){ 
+    
+    if (a.equals("")) a = "0";
+    if (b.equals("")) b = "0";
+    
+    int num1 = Integer.parseInt(a);
+    int num2 = Integer.parseInt(b);
+    
+    return Integer.toString(num1 + num2);
+  }
+}
